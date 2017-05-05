@@ -1,0 +1,105 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper]{geometry}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {Images/} }
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+\setcounter{tocdepth}{3}
+ 
+\begin{document}
+
+% -----------------
+% ----- TITLE -----
+% -----------------
+\title{ \normalsize \textsc{CuPID}
+		\\ [2.0cm]
+		\HRule{0.5pt} \\
+		\Large \textbf{\uppercase{Concept of Operation (COP)}}
+		\HRule{2pt} \\ [0.5cm]
+		\normalsize \today \vspace*{5\baselineskip}}
+
+\date{}
+
+\author{
+		Effective Date: TBD}
+
+\maketitle
+\newpage
+
+% -----------------------------
+% ----- REVISITON HISTORY -----
+% -----------------------------
+\begin{flushleft}
+	{\Large Revision History Log}
+	\newline
+	
+	\begin{tabular}{ c | c | c | c }
+	  Revision & Description/Sections Affected & Approved & Document Effective Date \\ \hline
+	  1.0 & Full Document & - & -\\ \hline
+	\end{tabular}
+	
+\end{flushleft}
+\newpage
+
+% -----------------------------
+% ----- TABLE OF CONTENTS -----
+% -----------------------------
+\tableofcontents
+\newpage
+
+% ----------------------------
+% ----- LIST OF ACRONYMS -----
+% ----------------------------
+\begin{flushleft}
+	{\Large List of Acronyms}
+\end{flushleft}
+\newpage
+
+% --------------------
+% ----- SECTIONS -----
+% --------------------
+\setlength{\parindent}{0cm}
+\section{Scope}
+
+\section{Applicable Documents}
+
+\section{On Orbit Requirements}
+\subsection{Storing Data}
+\subsection{On-Orbit Data Processing}
+
+\section{Ephemeris Requirements}
+\subsection{Pointing Requirements}
+\subsubsection{Knowledge}
+\subsubsection{Pointing Accuracy}
+\subsubsection{Pointing Stability}
+
+\section{Launch and Early Orbit}
+
+\section{Soft X-Ray Mission Requirements}
+\subsection{Orbital Requirements}
+\subsubsection{Acceptable Orbits}
+
+\section{Normal Operation Mode}
+\subsection{Science Mode}
+\begin{itemize}
+\item Spacecraft rotated to allow for most sunlight on 6U face. 
+\item Some orbits will provide data support all sky survey.
+\item Some orbits the spacecraft will log through magnetosphere cusps to address primary science target. 
+\item Soft X-ray and microdosimeter will always be on.
+\end{itemize}
+\subsection{Power Generation Mode}
+\begin{itemize}
+\item Faces of 6U will be pointed towards sun in orbits to maximize solar energy collection
+\item Science instruments will be turned off
+\end{itemize}
+\subsection{Communication Mode}
+
+\section{Requirements of Operation}
+\subsection{Sun Avoidance Orbits}
+Aperture telescope can't get within 30$^{\circ}$ of the sun.
+
+\section{End of Life}
+
+\end{document}
